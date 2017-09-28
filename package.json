@@ -1,0 +1,15 @@
+{
+  "name": "change-pkg-name",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts":{
+    "start":"gulp changePkgName --pkg con.gasport.test020"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "sander": "^0.6.0",
+    "xml-js": "^1.4.2",
+    "yargs": "^9.0.1"
+  }
+}
